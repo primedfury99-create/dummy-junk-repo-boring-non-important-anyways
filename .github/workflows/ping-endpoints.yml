@@ -22,4 +22,5 @@ jobs:
           node-version: 18
 
       - name: Run ping script
+        working-directory: scripts
         run: node ping-urls.js
